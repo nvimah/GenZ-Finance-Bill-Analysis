@@ -41,18 +41,18 @@ venv.bak/
 
 # API Keys and Sensitive Data
 config.py
-secrets.json
+#secrets.json
 api_keys.txt
 *.key
 *.pem
 
 # Data files that might be too large for Git
 *.csv
-*.json
+#*.json
 *.xlsx
 *.parquet
-data/raw_data/*.json
-data/scraped_data/*.json
+#data/raw_data/*.json
+#data/scraped_data/*.json
 data/processed_data/*.pkl
 
 # Visualization outputs
